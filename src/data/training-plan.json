@@ -1,0 +1,2877 @@
+{
+  "meta": {
+    "title": "Plan Lucas — IRONMAN 70.3 Alcúdia",
+    "generated": "2026-09-02",
+    "weekly_structure": "1 natación · 2 bici · 2 run · 1 gym · descanso jueves",
+    "phases_overview": "Base 1-4 (sep-dic) → Build 1-2 (ene-feb) → Específica (mar) → Peak (abr) → Taper (may)",
+    "kickoff": {
+      "date": "2026-09-03",
+      "sport": "run",
+      "title": "🏃 Arranque — carrera de activación",
+      "detail": "Ritmo objetivo 6:30/km · mantener FC < ~145 ppm (Z2-Z3)",
+      "target_pace": "6:30",
+      "note": "Sesión de activación antes del inicio oficial de Base 1 (lun 7 sep)."
+    }
+  },
+  "athlete": {
+    "name": "Lucas",
+    "age": 26,
+    "location": "Barcelona",
+    "height_cm": 182,
+    "weight_start_kg": 72,
+    "weight_target_kg": 70,
+    "hr_max": 192,
+    "hr_max_source": "estimado (pendiente test de máximo real)",
+    "resting_hr": 52,
+    "vo2max": 45,
+    "vo2max_trend": "42,6 (jul) → 45,3 (2 sep) · top 45% edad/sexo",
+    "current_paces": {
+      "swim_100m": "1:52–2:02 (mejor 1:52)",
+      "run_easy_km": "6:20–6:40",
+      "run_tempo_km": "5:29 (sostenido 7,7 km)",
+      "bike_kmh": "17–20"
+    },
+    "profile_summary": "Nadador fuerte · corredor sólido · ciclista a mejorar (foco del plan)",
+    "swim_background": "Fuerte — ya por debajo del ritmo objetivo de carrera",
+    "bike": "Cervélo Soloist CSC (2008) — apta para el segmento de bici del 70.3",
+    "shoes": "Sidi Iron",
+    "device": "Garmin (entrenos + sueño)",
+    "other_sports": "Pádel, esquí"
+  },
+  "race": {
+    "event": "Mallorca 70.3",
+    "date": "2027-05-08",
+    "start_time": "07:30",
+    "location": "Alcúdia Bay",
+    "segments": {
+      "swim_km": 1.9,
+      "bike_km": 90,
+      "run_km": 21.1
+    },
+    "goal_total": "~5h45",
+    "goal_splits": {
+      "swim": "~45'",
+      "bike": "~2h45'",
+      "run": "~2h05' (5:55/km)"
+    },
+    "race_pace_run": "5:55/km",
+    "stepping_stones": [
+      {
+        "event": "Simulacro olímpico propio",
+        "date": "2027-02",
+        "type": "Olímpico (autoorganizado)",
+        "detail": "1500 nado / 40 bici / 10 run · test de ritmos y transiciones · idealmente nado en aguas abiertas"
+      },
+      {
+        "event": "TriTour Deltebre Olímpico",
+        "date": "2027-04",
+        "type": "Olímpico"
+      }
+    ]
+  },
+  "hr_zones": [
+    {
+      "zone": "Z1",
+      "pct": "50-60%",
+      "bpm": "96-115",
+      "run": ">7:30/km",
+      "bike": "<20 km/h",
+      "feel": "Muy fácil. Recuperación activa."
+    },
+    {
+      "zone": "Z2",
+      "pct": "60-70%",
+      "bpm": "115-134",
+      "run": "6:45-7:30/km",
+      "bike": "22-26 km/h",
+      "feel": "Base aeróbica. LA ZONA CLAVE del plan."
+    },
+    {
+      "zone": "Z3",
+      "pct": "70-80%",
+      "bpm": "134-154",
+      "run": "6:00-6:45/km",
+      "bike": "26-30 km/h",
+      "feel": "Tempo. Incómodo pero sostenible."
+    },
+    {
+      "zone": "Z4",
+      "pct": "80-90%",
+      "bpm": "154-173",
+      "run": "5:15-6:00/km",
+      "bike": "30-34 km/h",
+      "feel": "Umbral. Solo series específicas."
+    },
+    {
+      "zone": "Z5",
+      "pct": "90-100%",
+      "bpm": "173-192",
+      "run": "<5:15/km",
+      "bike": ">34 km/h",
+      "feel": "Máximo. Series cortas."
+    }
+  ],
+  "hr_zones_note": "Zonas calculadas sobre FC máx 192 ppm (estimada). Actualizar con test de máximo real.",
+  "baseline_garmin": {
+    "captured": "2026-09-02",
+    "vo2max_series": [
+      42.9,
+      42.9,
+      43.1,
+      42.6,
+      43.7,
+      44.1,
+      44.3,
+      44.5,
+      45.3
+    ],
+    "resting_hr_recent": {
+      "27ago-2sep": 52,
+      "20-26ago": 53,
+      "13-19ago": 52,
+      "6-12ago": 51,
+      "30jul-5ago": 49
+    },
+    "activities": [
+      {
+        "date": "2026-07-24",
+        "sport": "swim",
+        "dist_m": 1022,
+        "time": "24:59",
+        "pace_100m": "2:14"
+      },
+      {
+        "date": "2026-07-22",
+        "sport": "swim",
+        "dist_m": 1425,
+        "time": "36:55",
+        "pace_100m": "2:12"
+      },
+      {
+        "date": "2026-07-14",
+        "sport": "swim",
+        "dist_m": 1700,
+        "time": "41:24",
+        "pace_100m": "1:59"
+      },
+      {
+        "date": "2026-06-25",
+        "sport": "swim",
+        "dist_m": 750,
+        "time": "13:58",
+        "pace_100m": "1:52"
+      },
+      {
+        "date": "2026-06-23",
+        "sport": "run",
+        "dist_km": 4.48,
+        "time": "29:07",
+        "pace_km": "6:30",
+        "label": "Roda de Berà"
+      },
+      {
+        "date": "2026-06-22",
+        "sport": "run",
+        "dist_km": 7.68,
+        "time": "42:07",
+        "pace_km": "5:29",
+        "label": "Barcelona"
+      },
+      {
+        "date": "2026-06-20",
+        "sport": "run",
+        "dist_km": 4.12,
+        "time": "26:04",
+        "pace_km": "6:20",
+        "label": "Barcelona"
+      },
+      {
+        "date": "2026-06-18",
+        "sport": "swim",
+        "dist_m": 1475,
+        "time": "39:25",
+        "pace_100m": "2:02"
+      },
+      {
+        "date": "2026-06-17",
+        "sport": "bike",
+        "dist_km": 23.0,
+        "time": "1:20:00",
+        "speed_kmh": 17.2
+      },
+      {
+        "date": "2026-06-16",
+        "sport": "run",
+        "dist_km": 4.23,
+        "time": "28:11",
+        "pace_km": "6:39",
+        "label": "Sant Boi"
+      },
+      {
+        "date": "2026-06-15",
+        "sport": "swim",
+        "dist_m": 1300,
+        "time": "45:00",
+        "pace_100m": "3:28"
+      },
+      {
+        "date": "2026-06-12",
+        "sport": "bike",
+        "dist_km": 14.3,
+        "time": "41:52",
+        "speed_kmh": 20.5,
+        "label": "Roda de Berà"
+      },
+      {
+        "date": "2026-06-11",
+        "sport": "swim",
+        "dist_m": 575,
+        "time": "15:09",
+        "pace_100m": "2:23"
+      },
+      {
+        "date": "2026-06-09",
+        "sport": "run",
+        "dist_km": 4.69,
+        "time": "30:22",
+        "pace_km": "6:29",
+        "label": "Barcelona"
+      }
+    ]
+  },
+  "weekly_template": {
+    "base_build": [
+      "swim",
+      "gym",
+      "bike_quality",
+      "rest",
+      "run_quality",
+      "bike_long",
+      "run_long"
+    ],
+    "specific_peak": [
+      "swim",
+      "mobility",
+      "bike_quality",
+      "rest",
+      "run_quality",
+      "bike_long",
+      "brick"
+    ],
+    "taper": [
+      "swim",
+      "mobility",
+      "bike_quality",
+      "rest",
+      "run_quality",
+      "bike_long",
+      "run_long"
+    ]
+  },
+  "pace_progression": [
+    {
+      "month": "Sep'26",
+      "phase": "Base 1",
+      "series": "6x800m a 5:40-5:45/km",
+      "rest": "90s",
+      "z2_run": "7:00-7:15/km",
+      "brick_run": null
+    },
+    {
+      "month": "Oct'26",
+      "phase": "Base 2",
+      "series": "6x800m a 5:30-5:40/km",
+      "rest": "90s",
+      "z2_run": "6:55-7:05/km",
+      "brick_run": null
+    },
+    {
+      "month": "Nov'26",
+      "phase": "Base 3",
+      "series": "6x800m a 5:25-5:30/km",
+      "rest": "90s",
+      "z2_run": "6:50-7:00/km",
+      "brick_run": null
+    },
+    {
+      "month": "Dic'26",
+      "phase": "Base 4",
+      "series": "6x800m a 5:15-5:20/km",
+      "rest": "90s",
+      "z2_run": "6:45-6:55/km",
+      "brick_run": null
+    },
+    {
+      "month": "Ene'27",
+      "phase": "Build 1",
+      "series": "5x1000m a 5:25-5:30/km",
+      "rest": "75s",
+      "z2_run": "6:35-6:45/km",
+      "brick_run": null
+    },
+    {
+      "month": "Feb'27",
+      "phase": "Build 2",
+      "series": "5x1000m a 5:15-5:20/km",
+      "rest": "75s",
+      "z2_run": "6:25-6:35/km",
+      "brick_run": "6:10-6:20/km"
+    },
+    {
+      "month": "Mar'27",
+      "phase": "Específica",
+      "series": "4x1500m / 3x2000m a 5:30-5:40/km",
+      "rest": "60s",
+      "z2_run": "6:15-6:25/km",
+      "brick_run": "6:00-6:10/km"
+    },
+    {
+      "month": "Abr'27",
+      "phase": "Peak",
+      "series": "4x1500m / 3x2000m a 5:20-5:35/km",
+      "rest": "60s",
+      "z2_run": "6:10-6:20/km",
+      "brick_run": "5:55-6:05/km"
+    },
+    {
+      "month": "8 May",
+      "phase": "CARRERA",
+      "series": "RACE PACE",
+      "rest": "—",
+      "z2_run": "5:55/km (21km)",
+      "brick_run": null
+    }
+  ],
+  "phases": [
+    {
+      "id": "2026-09",
+      "name": "Base 1",
+      "phase": "BASE",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2026-09-07",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-09-07"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-09-08"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-09-09"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-09-10"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-09-11"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "50 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 50,
+              "icon": "🚴",
+              "date": "2026-09-12"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "10 km a 7:00/km Z2",
+              "zone": "Z2",
+              "distance_km": 10,
+              "pace": "7:00",
+              "icon": "🏃",
+              "date": "2026-09-13"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2026-09-14",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-09-14"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-09-15"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-09-16"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-09-17"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-09-18"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "50 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 50,
+              "icon": "🚴",
+              "date": "2026-09-19"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "10 km a 7:00/km Z2",
+              "zone": "Z2",
+              "distance_km": 10,
+              "pace": "7:00",
+              "icon": "🏃",
+              "date": "2026-09-20"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2026-09-21",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-09-21"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-09-22"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-09-23"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-09-24"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-09-25"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "57 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 57,
+              "icon": "🚴",
+              "date": "2026-09-26"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "11 km a 7:00/km Z2",
+              "zone": "Z2",
+              "distance_km": 11,
+              "pace": "7:00",
+              "icon": "🏃",
+              "date": "2026-09-27"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2026-09-28",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-09-28"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-09-29"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-09-30"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-10-01"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-10-02"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "35 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 35,
+              "icon": "🚴",
+              "date": "2026-10-03"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "8 km a 7:15/km Z2 · descarga",
+              "zone": "Z2",
+              "distance_km": 8,
+              "pace": "7:15",
+              "icon": "🏃",
+              "date": "2026-10-04"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-10",
+      "name": "Base 2",
+      "phase": "BASE",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2026-10-05",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-10-05"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-10-06"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-10-07"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-10-08"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-10-09"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "60 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 60,
+              "icon": "🚴",
+              "date": "2026-10-10"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "11 km a 6:55/km Z2",
+              "zone": "Z2",
+              "distance_km": 11,
+              "pace": "6:55",
+              "icon": "🏃",
+              "date": "2026-10-11"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2026-10-12",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-10-12"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-10-13"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-10-14"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-10-15"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-10-16"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "69 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 69,
+              "icon": "🚴",
+              "date": "2026-10-17"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "11 km a 6:55/km Z2",
+              "zone": "Z2",
+              "distance_km": 11,
+              "pace": "6:55",
+              "icon": "🏃",
+              "date": "2026-10-18"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2026-10-19",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-10-19"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-10-20"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-10-21"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-10-22"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-10-23"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "42 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 42,
+              "icon": "🚴",
+              "date": "2026-10-24"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "9 km a 7:10/km Z2 · descarga",
+              "zone": "Z2",
+              "distance_km": 9,
+              "pace": "7:10",
+              "icon": "🏃",
+              "date": "2026-10-25"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2026-10-26",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-10-26"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-10-27"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-10-28"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-10-29"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-10-30"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "69 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 69,
+              "icon": "🚴",
+              "date": "2026-10-31"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "12 km a 6:55/km Z2",
+              "zone": "Z2",
+              "distance_km": 12,
+              "pace": "6:55",
+              "icon": "🏃",
+              "date": "2026-11-01"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-11",
+      "name": "Base 3",
+      "phase": "BASE",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2026-11-02",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-11-02"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-11-03"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-11-04"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-11-05"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-11-06"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "70 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 70,
+              "icon": "🚴",
+              "date": "2026-11-07"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "12 km a 6:50/km Z2",
+              "zone": "Z2",
+              "distance_km": 12,
+              "pace": "6:50",
+              "icon": "🏃",
+              "date": "2026-11-08"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2026-11-09",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-11-09"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-11-10"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-11-11"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-11-12"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-11-13"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "80 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 80,
+              "icon": "🚴",
+              "date": "2026-11-14"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "12 km a 6:50/km Z2",
+              "zone": "Z2",
+              "distance_km": 12,
+              "pace": "6:50",
+              "icon": "🏃",
+              "date": "2026-11-15"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2026-11-16",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-11-16"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-11-17"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-11-18"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-11-19"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-11-20"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "49 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 49,
+              "icon": "🚴",
+              "date": "2026-11-21"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "10 km a 7:00/km Z2 · descarga",
+              "zone": "Z2",
+              "distance_km": 10,
+              "pace": "7:00",
+              "icon": "🏃",
+              "date": "2026-11-22"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2026-11-23",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-11-23"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-11-24"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-11-25"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-11-26"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-11-27"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "80 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 80,
+              "icon": "🚴",
+              "date": "2026-11-28"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "13 km a 6:50/km Z2",
+              "zone": "Z2",
+              "distance_km": 13,
+              "pace": "6:50",
+              "icon": "🏃",
+              "date": "2026-11-29"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2026-12",
+      "name": "Base 4",
+      "phase": "BASE",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2026-12-07",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-12-07"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-12-08"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-12-09"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-12-10"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-12-11"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "80 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 80,
+              "icon": "🚴",
+              "date": "2026-12-12"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "13 km a 6:45/km Z2",
+              "zone": "Z2",
+              "distance_km": 13,
+              "pace": "6:45",
+              "icon": "🏃",
+              "date": "2026-12-13"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2026-12-14",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-12-14"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-12-15"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-12-16"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-12-17"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-12-18"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "80 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 80,
+              "icon": "🚴",
+              "date": "2026-12-19"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "13 km a 6:45/km Z2",
+              "zone": "Z2",
+              "distance_km": 13,
+              "pace": "6:45",
+              "icon": "🏃",
+              "date": "2026-12-20"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2026-12-21",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-12-21"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-12-22"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-12-23"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-12-24"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2026-12-25"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "92 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 92,
+              "icon": "🚴",
+              "date": "2026-12-26"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "14 km a 6:45/km Z2",
+              "zone": "Z2",
+              "distance_km": 14,
+              "pace": "6:45",
+              "icon": "🏃",
+              "date": "2026-12-27"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2026-12-28",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2026-12-28"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2026-12-29"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2026-12-30"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2026-12-31"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-01-01"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "56 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 56,
+              "icon": "🚴",
+              "date": "2027-01-02"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "10 km a 7:00/km Z2 · descarga",
+              "zone": "Z2",
+              "distance_km": 10,
+              "pace": "7:00",
+              "icon": "🏃",
+              "date": "2027-01-03"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-01",
+      "name": "Build 1",
+      "phase": "BUILD",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2027-01-04",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-01-04"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-01-05"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~55km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-01-06"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-01-07"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-01-08"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "90 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 90,
+              "icon": "🚴",
+              "date": "2027-01-09"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "14 km a 6:40/km Z2",
+              "zone": "Z2",
+              "distance_km": 14,
+              "pace": "6:40",
+              "icon": "🏃",
+              "date": "2027-01-10"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2027-01-11",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-01-11"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-01-12"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~55km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-01-13"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-01-14"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-01-15"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "103 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 103,
+              "icon": "🚴",
+              "date": "2027-01-16"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "14 km a 6:40/km Z2",
+              "zone": "Z2",
+              "distance_km": 14,
+              "pace": "6:40",
+              "icon": "🏃",
+              "date": "2027-01-17"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2027-01-18",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-01-18"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-01-19"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~55km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-01-20"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-01-21"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-01-22"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "63 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 63,
+              "icon": "🚴",
+              "date": "2027-01-23"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "11 km a 6:45/km Z2 · descarga",
+              "zone": "Z2",
+              "distance_km": 11,
+              "pace": "6:45",
+              "icon": "🏃",
+              "date": "2027-01-24"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2027-01-25",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-01-25"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-01-26"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~55km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-01-27"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-01-28"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-01-29"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "103 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 103,
+              "icon": "🚴",
+              "date": "2027-01-30"
+            },
+            {
+              "day": "DOM",
+              "sport": "run",
+              "title": "Run largo Z2",
+              "detail": "16 km a 6:35/km Z2",
+              "zone": "Z2",
+              "distance_km": 16,
+              "pace": "6:35",
+              "icon": "🏃",
+              "date": "2027-01-31"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-02",
+      "name": "Build 2",
+      "phase": "BUILD",
+      "template": "base_build",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2027-02-01",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-02-01"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-02-02"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~60km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-02-03"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-02-04"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-02-05"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "100 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 100,
+              "icon": "🚴",
+              "date": "2027-02-06"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "75 km bici Z2 + 12 km run a 6:20/km",
+              "bike_km": 75,
+              "run_km": 12,
+              "run_pace": "6:20",
+              "icon": "🧱",
+              "date": "2027-02-07"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2027-02-08",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-02-08"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-02-09"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~60km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-02-10"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-02-11"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-02-12"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "100 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 100,
+              "icon": "🚴",
+              "date": "2027-02-13"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "75 km bici Z2 + 12 km run a 6:15/km",
+              "bike_km": 75,
+              "run_km": 12,
+              "run_pace": "6:15",
+              "icon": "🧱",
+              "date": "2027-02-14"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2027-02-15",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-02-15"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-02-16"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~60km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-02-17"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-02-18"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-02-19"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "115 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 115,
+              "icon": "🚴",
+              "date": "2027-02-20"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "90 km bici Z2 + 12 km run a 6:10/km",
+              "bike_km": 90,
+              "run_km": 12,
+              "run_pace": "6:10",
+              "icon": "🧱",
+              "date": "2027-02-21"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2027-02-22",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-02-22"
+            },
+            {
+              "day": "MAR",
+              "sport": "gym",
+              "title": "Gym — Fuerza funcional",
+              "detail": "Sentadilla/remo 4x10 + core 20-30'",
+              "zone": "—",
+              "icon": "🏋️",
+              "date": "2027-02-23"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~60km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-02-24"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-02-25"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-02-26"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "70 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 70,
+              "icon": "🚴",
+              "date": "2027-02-27"
+            },
+            {
+              "day": "DOM",
+              "sport": "triathlon",
+              "title": "🏁 SIMULACRO OLÍMPICO",
+              "zone": "RACE-sim",
+              "detail": "1500m nado + 40km bici + 10km run · con transiciones (T1/T2) · nado en aguas abiertas si es posible",
+              "swim_m": 1500,
+              "bike_km": 40,
+              "run_km": 10,
+              "simulation": true,
+              "icon": "🏁",
+              "date": "2027-02-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-03",
+      "name": "Específica",
+      "phase": "SPECIFIC",
+      "template": "specific_peak",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2027-03-01",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-03-01"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-03-02"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~65km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-03-03"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-03-04"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-03-05"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "110 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 110,
+              "icon": "🚴",
+              "date": "2027-03-06"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "85 km bici Z2 + 12 km run a 6:10/km",
+              "bike_km": 85,
+              "run_km": 12,
+              "run_pace": "6:10",
+              "icon": "🧱",
+              "date": "2027-03-07"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2027-03-08",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-03-08"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-03-09"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~65km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-03-10"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-03-11"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-03-12"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "110 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 110,
+              "icon": "🚴",
+              "date": "2027-03-13"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "85 km bici Z2 + 12 km run a 6:05/km",
+              "bike_km": 85,
+              "run_km": 12,
+              "run_pace": "6:05",
+              "icon": "🧱",
+              "date": "2027-03-14"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2027-03-15",
+          "deload": false,
+          "peak": true,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-03-15"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-03-16"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~65km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-03-17"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-03-18"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-03-19"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "126 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 126,
+              "icon": "🚴",
+              "date": "2027-03-20"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "101 km bici Z2 + 12 km run a 6:00/km",
+              "bike_km": 101,
+              "run_km": 12,
+              "run_pace": "6:00",
+              "icon": "🧱",
+              "date": "2027-03-21"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2027-03-22",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-03-22"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-03-23"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~65km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-03-24"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-03-25"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-03-26"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "77 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 77,
+              "icon": "🚴",
+              "date": "2027-03-27"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "52 km bici Z2 + 10 km run a 6:10/km · descarga",
+              "bike_km": 52,
+              "run_km": 10,
+              "run_pace": "6:10",
+              "icon": "🧱",
+              "date": "2027-03-28"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-04",
+      "name": "Peak",
+      "phase": "PEAK",
+      "template": "specific_peak",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2027-04-05",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-04-05"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-04-06"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~70km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-04-07"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-04-08"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-04-09"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "90 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 90,
+              "icon": "🚴",
+              "date": "2027-04-10"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "65 km bici Z2 + 12 km run a 6:05/km",
+              "bike_km": 65,
+              "run_km": 12,
+              "run_pace": "6:05",
+              "icon": "🧱",
+              "date": "2027-04-11"
+            }
+          ]
+        },
+        {
+          "week": 2,
+          "start_date": "2027-04-12",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-04-12"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-04-13"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~70km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-04-14"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-04-15"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-04-16"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "90 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 90,
+              "icon": "🚴",
+              "date": "2027-04-17"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "65 km bici Z2 + 12 km run a 6:00/km",
+              "bike_km": 65,
+              "run_km": 12,
+              "run_pace": "6:00",
+              "icon": "🧱",
+              "date": "2027-04-18"
+            }
+          ]
+        },
+        {
+          "week": 3,
+          "start_date": "2027-04-19",
+          "deload": false,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-04-19"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-04-20"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~70km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-04-21"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-04-22"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-04-23"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "103 km Z2 · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 103,
+              "icon": "🚴",
+              "date": "2027-04-24"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "78 km bici Z2 + 12 km run a 5:55/km",
+              "bike_km": 78,
+              "run_km": 12,
+              "run_pace": "5:55",
+              "icon": "🧱",
+              "date": "2027-04-25"
+            }
+          ]
+        },
+        {
+          "week": 4,
+          "start_date": "2027-04-26",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "sport": "swim",
+              "title": "Natación",
+              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "zone": "Z2-Z3",
+              "icon": "🌊",
+              "date": "2027-04-26"
+            },
+            {
+              "day": "MAR",
+              "sport": "mobility",
+              "title": "Movilidad",
+              "detail": "20' foam roller + movilidad",
+              "zone": "Z1",
+              "icon": "🧘",
+              "date": "2027-04-27"
+            },
+            {
+              "day": "MIÉ",
+              "sport": "bike",
+              "title": "Bici calidad (indoor)",
+              "detail": "Indoor Z4 · ~70km",
+              "zone": "Z4",
+              "icon": "🚴",
+              "date": "2027-04-28"
+            },
+            {
+              "day": "JUE",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Descanso completo / caminata suave",
+              "zone": "—",
+              "icon": "💤",
+              "date": "2027-04-29"
+            },
+            {
+              "day": "VIE",
+              "sport": "run",
+              "title": "Run calidad",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "zone": "Z4",
+              "icon": "🏃",
+              "date": "2027-04-30"
+            },
+            {
+              "day": "SÁB",
+              "sport": "bike",
+              "title": "Bici larga Z2",
+              "detail": "63 km Z2 · descarga · 22-26 km/h",
+              "zone": "Z2",
+              "distance_km": 63,
+              "icon": "🚴",
+              "date": "2027-05-01"
+            },
+            {
+              "day": "DOM",
+              "sport": "brick",
+              "title": "Brick (bici + run)",
+              "zone": "Z2",
+              "detail": "50 km bici Z2 + 10 km run a 6:05/km · descarga",
+              "bike_km": 50,
+              "run_km": 10,
+              "run_pace": "6:05",
+              "icon": "🧱",
+              "date": "2027-05-02"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2027-05",
+      "name": "Taper + Carrera",
+      "phase": "TAPER",
+      "template": "taper",
+      "notes": "Volumen -50%, mantener algo de intensidad. Dormir mucho. Sin restricción calórica.",
+      "weeks": [
+        {
+          "week": 1,
+          "start_date": "2027-05-03",
+          "deload": true,
+          "peak": false,
+          "days": [
+            {
+              "day": "LUN",
+              "date": "2027-05-03",
+              "sport": "swim",
+              "title": "Natación técnica",
+              "detail": "1.500m suave",
+              "zone": "Z2",
+              "icon": "🌊"
+            },
+            {
+              "day": "MAR",
+              "date": "2027-05-04",
+              "sport": "run",
+              "title": "Run suave",
+              "detail": "5 km a 6:20/km",
+              "zone": "Z2",
+              "distance_km": 5,
+              "pace": "6:20",
+              "icon": "🏃"
+            },
+            {
+              "day": "MIÉ",
+              "date": "2027-05-05",
+              "sport": "bike",
+              "title": "Bici suave",
+              "detail": "30 km muy suave",
+              "zone": "Z2",
+              "distance_km": 30,
+              "icon": "🚴"
+            },
+            {
+              "day": "JUE",
+              "date": "2027-05-06",
+              "sport": "rest",
+              "title": "Descanso",
+              "detail": "Caminata 30'",
+              "zone": "—",
+              "icon": "💤"
+            },
+            {
+              "day": "VIE",
+              "date": "2027-05-07",
+              "sport": "run",
+              "title": "Run activación",
+              "detail": "3 km muy suave a 6:30/km",
+              "zone": "Z1",
+              "distance_km": 3,
+              "pace": "6:30",
+              "icon": "🏃"
+            },
+            {
+              "day": "SÁB",
+              "date": "2027-05-08",
+              "sport": "race",
+              "title": "🏁 CARRERA — Mallorca 70.3",
+              "detail": "1.9 km nado / 90 km bici / 21 km run · Salida 07:30 · Alcúdia",
+              "zone": "RACE",
+              "icon": "🏁"
+            },
+            {
+              "day": "DOM",
+              "date": "2027-05-09",
+              "sport": "rest",
+              "title": "Post-carrera",
+              "detail": "¡Descansa y disfruta!",
+              "zone": "—",
+              "icon": "🎉"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
