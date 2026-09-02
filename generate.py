@@ -77,89 +77,129 @@ months = [
     {"key":"2026-09","name":"Base 1","phase":"BASE","template":"base_build",
      "run_series":"6x800m a 5:40-5:45/km (90s desc)","z2_run":"7:00-7:15/km",
      "bike_quality":"Indoor Z4 · 4x5' Z4 · ~30km",
-     "bike_long":[50,50,57,35],"run_long":[10,10,11,8],"run_long_pace":["7:00","7:00","7:00","7:15"],
+     "bike_long":[25,30,35,22],"run_long":[10,10,11,8],"run_long_pace":["7:00","7:00","7:00","7:15"],
      "deload":3},
     {"key":"2026-10","name":"Base 2","phase":"BASE","template":"base_build",
      "run_series":"6x800m a 5:30-5:40/km (90s desc)","z2_run":"6:55-7:05/km",
      "bike_quality":"Indoor Z4 · 4x5' Z4 · ~40km",
-     "bike_long":[60,69,42,69],"run_long":[11,11,9,12],"run_long_pace":["6:55","6:55","7:10","6:55"],
+     "bike_long":[40,46,28,52],"run_long":[11,11,9,12],"run_long_pace":["6:55","6:55","7:10","6:55"],
      "deload":2},
     {"key":"2026-11","name":"Base 3","phase":"BASE","template":"base_build",
      "run_series":"6x800m a 5:25-5:30/km (90s desc)","z2_run":"6:50-7:00/km",
      "bike_quality":"Indoor Z4 · 4x5' Z4 · ~46km",
-     "bike_long":[70,80,49,80],"run_long":[12,12,10,13],"run_long_pace":["6:50","6:50","7:00","6:50"],
+     "bike_long":[55,62,38,68],"run_long":[12,12,10,13],"run_long_pace":["6:50","6:50","7:00","6:50"],
      "deload":2},
     {"key":"2026-12","name":"Base 4","phase":"BASE","template":"base_build",
      "run_series":"6x800m a 5:15-5:20/km (90s desc)","z2_run":"6:45-6:55/km",
      "bike_quality":"Indoor Z4 · 4x5' Z4 · ~50km",
-     "bike_long":[80,80,92,56],"run_long":[13,13,14,10],"run_long_pace":["6:45","6:45","6:45","7:00"],
+     "bike_long":[70,76,84,50],"run_long":[13,13,14,10],"run_long_pace":["6:45","6:45","6:45","7:00"],
      "deload":3},
     {"key":"2027-01","name":"Build 1","phase":"BUILD","template":"base_build",
      "run_series":"5x1000m a 5:25-5:30/km (75s desc)","z2_run":"6:35-6:45/km",
      "bike_quality":"Indoor Z4 · ~55km",
-     "bike_long":[90,103,63,103],"run_long":[14,14,11,16],"run_long_pace":["6:40","6:40","6:45","6:35"],
+     "bike_long":[85,95,58,100],"run_long":[14,14,11,16],"run_long_pace":["6:40","6:40","6:45","6:35"],
      "deload":2},
     {"key":"2027-02","name":"Build 2","phase":"BUILD","template":"base_build",
      "run_series":"5x1000m a 5:15-5:20/km (75s desc)","z2_run":"6:25-6:35/km",
      "bike_quality":"Indoor Z4 · ~60km",
      "bike_long":[100,100,115,70],
-     "brick":[{"bike":75,"run":12,"pace":"6:20"},{"bike":75,"run":12,"pace":"6:15"},
-              {"bike":90,"run":12,"pace":"6:10"},{"bike":40,"run":10,"pace":"6:25","sim":"olimpico"}],
+     "brick":[{"bike":70,"run":12,"pace":"6:20"},{"bike":75,"run":12,"pace":"6:15"},
+              {"bike":85,"run":12,"pace":"6:10"},{"bike":40,"run":10,"pace":"6:25","sim":"olimpico"}],
      "deload":3,"dom":"brick"},
     {"key":"2027-03","name":"Específica","phase":"SPECIFIC","template":"specific_peak",
      "run_series":"4x1500m / 3x2000m a 5:30-5:40/km (60s desc)","z2_run":"6:15-6:25/km",
      "bike_quality":"Indoor Z4 · ~65km",
-     "bike_long":[110,110,126,77],
-     "brick":[{"bike":85,"run":12,"pace":"6:10"},{"bike":85,"run":12,"pace":"6:05"},
-              {"bike":101,"run":12,"pace":"6:00"},{"bike":52,"run":10,"pace":"6:10"}],
+     "bike_long":[100,105,115,70],
+     "brick":[{"bike":80,"run":12,"pace":"6:10"},{"bike":85,"run":12,"pace":"6:05"},
+              {"bike":95,"run":12,"pace":"6:00"},{"bike":45,"run":10,"pace":"6:10"}],
      "deload":3,"dom":"brick","peak_week":2},
     {"key":"2027-04","name":"Peak","phase":"PEAK","template":"specific_peak",
      "run_series":"4x1500m / 3x2000m a 5:20-5:35/km (60s desc)","z2_run":"6:10-6:20/km",
      "bike_quality":"Indoor Z4 · ~70km",
-     "bike_long":[90,90,103,63],
-     "brick":[{"bike":65,"run":12,"pace":"6:05"},{"bike":65,"run":12,"pace":"6:00"},
-              {"bike":78,"run":12,"pace":"5:55"},{"bike":50,"run":10,"pace":"6:05"}],
+     "bike_long":[90,95,105,65],
+     "brick":[{"bike":70,"run":12,"pace":"6:05"},{"bike":72,"run":12,"pace":"6:00"},
+              {"bike":82,"run":12,"pace":"5:55"},{"bike":45,"run":10,"pace":"6:05"}],
      "deload":3,"dom":"brick"},
 ]
 
+HOME = "Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi)"
+Z2_BPM = f"{round(HR_MAX*.60)}-{round(HR_MAX*.70)} ppm"   # 115-134
+Z4_BPM = f"{round(HR_MAX*.80)}-{round(HR_MAX*.90)} ppm"   # 154-173
+ROUTES_NOTE = "Bici de carretera: subida por Vallvidrera / Collserola (asfalto abierto) para desnivel, o costa llana para Z2 puro. Los caminos de tierra del parque (Ctra. de les Aigües) siguen cerrados."
+
+def bike_route(dist, hilly=False):
+    if hilly:
+        return f"Desde {HOME}: sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4."
+    if dist <= 30:
+        return f"Desde {HOME}: baja a la costa y Passeig Marítim dir. Castelldefels; vuelta. Llano, ideal Z2."
+    if dist <= 55:
+        return "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos."
+    if dist <= 85:
+        return "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel."
+    return "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones."
+
 def session(kind, m, wk, deload):
-    z2 = m.get("z2_run","6:45-7:30/km")
     if kind == "swim":
-        return {"sport":"swim","title":"Natación","detail":"1.500m · 400m cal + series Z2 + enf. · técnica",
-                "zone":"Z2-Z3","icon":"🌊"}
+        return {"sport":"swim","title":"Natación (con entrenador)","zone":"Z2-Z3","icon":"🌊",
+                "detail":"~1.500m · sesión guiada por tu entrenador","structure":[],"cues":[]}
     if kind == "gym":
-        return {"sport":"gym","title":"Gym — Fuerza funcional","detail":"Sentadilla/remo 4x10 + core 20-30'",
-                "zone":"—","icon":"🏋️"}
+        return {"sport":"gym","title":"Gym — Fuerza funcional","zone":"—","icon":"🏋️",
+                "detail":"Fuerza de base + core (técnica > carga)",
+                "structure":["Sentadilla 4x8","Peso muerto rumano 3x10","Zancadas 3x12/pierna",
+                             "Puente de glúteo 3x15","Plancha 3x45\" + plancha lateral 3x30\"/lado"],
+                "cues":["Prioriza técnica y rango","Core al final","Nada al fallo: esto complementa, no fatiga"]}
     if kind == "mobility":
-        return {"sport":"mobility","title":"Movilidad","detail":"20' foam roller + movilidad","zone":"Z1","icon":"🧘"}
+        return {"sport":"mobility","title":"Movilidad","zone":"Z1","icon":"🧘",
+                "detail":"20' foam roller + movilidad de cadera/tobillo","structure":[],"cues":[]}
     if kind == "rest":
-        return {"sport":"rest","title":"Descanso","detail":"Descanso completo / caminata suave","zone":"—","icon":"💤"}
+        return {"sport":"rest","title":"Descanso","zone":"—","icon":"💤",
+                "detail":"Descanso completo o caminata suave 20-30'","structure":[],"cues":[]}
     if kind == "bike_quality":
-        return {"sport":"bike","title":"Bici calidad (indoor)","detail":m.get("bike_quality","Indoor Z4"),
-                "zone":"Z4","icon":"🚴"}
+        main = m.get("bike_quality","4x5' Z4 (5' rec)")
+        return {"sport":"bike","title":"Bici calidad","zone":"Z4","icon":"🚴",
+                "detail":f"Intervalos en Z4 ({Z4_BPM}) · subida Vallvidrera/Collserola o turbo indoor",
+                "route":bike_route(0, hilly=True),
+                "structure":["15' calentamiento progresivo hasta Z3", main, "10' enfriamiento suave Z1-Z2"],
+                "cues":["Series en Z4, recuperaciones muy suaves","En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                        "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"]}
     if kind == "bike_long":
-        d = m["bike_long"][wk]
-        tag = " · descarga" if deload else ""
-        return {"sport":"bike","title":"Bici larga Z2","detail":f"{d} km Z2{tag} · 22-26 km/h",
-                "zone":"Z2","distance_km":d,"icon":"🚴"}
+        d = m["bike_long"][wk]; tag = " · descarga" if deload else ""
+        return {"sport":"bike","title":"Bici larga Z2","zone":"Z2","icon":"🚴","distance_km":d,
+                "detail":f"{d} km en Z2 ({Z2_BPM}){tag}",
+                "route":bike_route(d),
+                "structure":[f"{d} km continuos a FC de Z2","Terreno llano de costa"],
+                "cues":[f"Manda la FC: {Z2_BPM} aunque el ritmo sea bajo","Cadencia 85-90 rpm",
+                        "Come/bebe cada 30-40' en salidas >90'","Es tu deporte a mejorar: constancia > intensidad"]}
     if kind == "run_quality":
-        return {"sport":"run","title":"Run calidad","detail":m.get("run_series",""),"zone":"Z4","icon":"🏃"}
+        return {"sport":"run","title":"Run calidad","zone":"Z4","icon":"🏃",
+                "detail":m.get("run_series",""),
+                "structure":["10-12' calentamiento a ~6:30/km", m.get("run_series",""), "10' enfriamiento suave"],
+                "cues":[f"Series en Z4 ({Z4_BPM})","Recupera caminando o trote muy suave","Técnica: cadencia ~170-175 ppm"]}
     if kind == "run_long":
-        d = m["run_long"][wk]; p = m["run_long_pace"][wk]
-        tag = " · descarga" if deload else ""
-        return {"sport":"run","title":"Run largo Z2","detail":f"{d} km a {p}/km Z2{tag}",
-                "zone":"Z2","distance_km":d,"pace":p,"icon":"🏃"}
+        d = m["run_long"][wk]; p = m["run_long_pace"][wk]; tag = " · descarga" if deload else ""
+        return {"sport":"run","title":"Run largo Z2","zone":"Z2","icon":"🏃","distance_km":d,"pace":p,
+                "detail":f"{d} km a {p}/km en Z2 ({Z2_BPM}){tag}",
+                "structure":[f"{d} km continuos a {p}/km"],
+                "cues":[f"FC en Z2 ({Z2_BPM})","Ritmo conversacional","Si la FC sube, afloja aunque el ritmo baje"]}
     if kind == "brick":
         b = m["brick"][wk]
         if b.get("sim") == "olimpico":
-            return {"sport":"triathlon","title":"🏁 SIMULACRO OLÍMPICO","zone":"RACE-sim",
-                    "detail":"1500m nado + 40km bici + 10km run · con transiciones (T1/T2) · nado en aguas abiertas si es posible",
-                    "swim_m":1500,"bike_km":40,"run_km":10,"simulation":True,"icon":"🏁"}
+            return {"sport":"triathlon","title":"🏁 SIMULACRO OLÍMPICO","zone":"RACE-sim","icon":"🏁",
+                    "detail":"1500m nado + 40km bici + 10km run · con transiciones (T1/T2)","simulation":True,
+                    "swim_m":1500,"bike_km":40,"run_km":10,
+                    "structure":["1500m nado (aguas abiertas si es posible)","T1: cambio a bici",
+                                 "40 km bici a ritmo objetivo","T2: cambio a run","10 km run a ritmo objetivo"],
+                    "cues":["Cronometra los 3 segmentos y las transiciones por separado","Prueba avituallamiento de carrera",
+                            "Objetivo: sacar foto realista antes de Deltebre (abril)"]}
         tag = " · descarga" if deload else ""
-        return {"sport":"brick","title":"Brick (bici + run)","zone":"Z2",
+        return {"sport":"brick","title":"Brick (bici + run)","zone":"Z2","icon":"🧱",
+                "bike_km":b["bike"],"run_km":b["run"],"run_pace":b["pace"],
                 "detail":f"{b['bike']} km bici Z2 + {b['run']} km run a {b['pace']}/km{tag}",
-                "bike_km":b["bike"],"run_km":b["run"],"run_pace":b["pace"],"icon":"🧱"}
-    return {"sport":"rest","title":"—","detail":"","zone":"—","icon":"·"}
+                "route":bike_route(b["bike"]),
+                "structure":[f"{b['bike']} km bici en Z2","Transición rápida (<5')",f"{b['run']} km run a {b['pace']}/km"],
+                "cues":["Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                        "Practica la transición como el día de carrera","Run a ritmo objetivo, no más rápido"]}
+    return {"sport":"rest","title":"—","detail":"","zone":"—","icon":"·","structure":[],"cues":[]}
 
 def week_start_dates(year, month):
     """Devuelve los lunes que caen dentro del mes."""
@@ -239,12 +279,16 @@ plan = {
         "generated": datetime.date.today().isoformat(),
         "weekly_structure": "1 natación · 2 bici · 2 run · 1 gym · descanso jueves",
         "phases_overview": "Base 1-4 (sep-dic) → Build 1-2 (ene-feb) → Específica (mar) → Peak (abr) → Taper (may)",
+        "home_base": HOME,
+        "bike_routes_note": ROUTES_NOTE,
         "kickoff": {
             "date": "2026-09-03",
             "sport": "run",
             "title": "🏃 Arranque — carrera de activación",
-            "detail": "Ritmo objetivo 6:30/km · mantener FC < ~145 ppm (Z2-Z3)",
+            "detail": "Ritmo objetivo 6:30/km · mantener FC < ~145 ppm",
             "target_pace": "6:30",
+            "structure": ["5' calentamiento andando/trote muy suave", "Rodaje continuo a 6:30/km", "5' vuelta a la calma"],
+            "cues": ["6:30/km cae en tu Z3 — deja que mande la FC (<145 ppm)", "Sin prisa: es activación, no test"],
             "note": "Sesión de activación antes del inicio oficial de Base 1 (lun 7 sep).",
         },
     },

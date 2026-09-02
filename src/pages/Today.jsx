@@ -3,7 +3,7 @@ import { plan, findDayByDate, findClosestDay, todayISO } from '../lib/plan'
 import { useRecords } from '../lib/storage'
 import { formatLong } from '../lib/format'
 import { sportColor } from '../lib/zones'
-import ZoneBadge from '../components/ZoneBadge'
+import SessionInfo from '../components/SessionInfo'
 import SessionModal from '../components/SessionModal'
 
 function ActualSummary({ record }) {
@@ -69,13 +69,9 @@ export default function Today() {
           <span>{day.icon}</span>
           {day.title}
         </h2>
-        {day.detail && <p className="mt-2 text-sm text-slate-300">{day.detail}</p>}
-
-        <div className="mt-4">
-          <ZoneBadge zone={day.zone} hrZones={plan.hr_zones} pace={day.pace} />
+        <div className="mt-3">
+          <SessionInfo day={day} hrZones={plan.hr_zones} />
         </div>
-
-        {day.note && <p className="mt-3 rounded-lg bg-white/5 p-2.5 text-xs text-slate-400">{day.note}</p>}
 
         {(day.deload || day.peak) && (
           <div className="mt-3 flex gap-2">

@@ -97,6 +97,13 @@ export default function PlanView() {
         <p className="text-xs text-slate-500">{formatShort(plan.meta.kickoff.date)} · {plan.meta.kickoff.detail}</p>
       </div>
 
+      {plan.meta.home_base && (
+        <div className="rounded-xl border border-white/10 bg-white/[0.02] px-4 py-3">
+          <p className="text-sm font-medium text-slate-200">🗺️ {plan.meta.home_base}</p>
+          {plan.meta.bike_routes_note && <p className="mt-1 text-xs text-slate-500">{plan.meta.bike_routes_note}</p>}
+        </div>
+      )}
+
       <div className="space-y-2.5">
         {plan.phases.map((phase) => (
           <PhaseBlock key={phase.id} phase={phase} isCurrent={phaseContainsToday(phase)} />

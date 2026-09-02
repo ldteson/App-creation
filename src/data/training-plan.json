@@ -4,12 +4,23 @@
     "generated": "2026-09-02",
     "weekly_structure": "1 natación · 2 bici · 2 run · 1 gym · descanso jueves",
     "phases_overview": "Base 1-4 (sep-dic) → Build 1-2 (ene-feb) → Específica (mar) → Peak (abr) → Taper (may)",
+    "home_base": "Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi)",
+    "bike_routes_note": "Bici de carretera: subida por Vallvidrera / Collserola (asfalto abierto) para desnivel, o costa llana para Z2 puro. Los caminos de tierra del parque (Ctra. de les Aigües) siguen cerrados.",
     "kickoff": {
       "date": "2026-09-03",
       "sport": "run",
       "title": "🏃 Arranque — carrera de activación",
-      "detail": "Ritmo objetivo 6:30/km · mantener FC < ~145 ppm (Z2-Z3)",
+      "detail": "Ritmo objetivo 6:30/km · mantener FC < ~145 ppm",
       "target_pace": "6:30",
+      "structure": [
+        "5' calentamiento andando/trote muy suave",
+        "Rodaje continuo a 6:30/km",
+        "5' vuelta a la calma"
+      ],
+      "cues": [
+        "6:30/km cae en tu Z3 — deja que mande la FC (<145 ppm)",
+        "Sin prisa: es activación, no test"
+      ],
       "note": "Sesión de activación antes del inicio oficial de Base 1 (lun 7 sep)."
     }
   },
@@ -358,67 +369,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-07"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-09-08"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~30km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-09-09"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-10"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:40-5:45/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:40-5:45/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-09-11"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "50 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 50,
               "icon": "🚴",
+              "distance_km": 25,
+              "detail": "25 km en Z2 (115-134 ppm)",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): baja a la costa y Passeig Marítim dir. Castelldefels; vuelta. Llano, ideal Z2.",
+              "structure": [
+                "25 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-09-12"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "10 km a 7:00/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 10,
               "pace": "7:00",
-              "icon": "🏃",
+              "detail": "10 km a 7:00/km en Z2 (115-134 ppm)",
+              "structure": [
+                "10 km continuos a 7:00/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-09-13"
             }
           ]
@@ -432,67 +499,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-14"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-09-15"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~30km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-09-16"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-17"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:40-5:45/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:40-5:45/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-09-18"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "50 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 50,
               "icon": "🚴",
+              "distance_km": 30,
+              "detail": "30 km en Z2 (115-134 ppm)",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): baja a la costa y Passeig Marítim dir. Castelldefels; vuelta. Llano, ideal Z2.",
+              "structure": [
+                "30 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-09-19"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "10 km a 7:00/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 10,
               "pace": "7:00",
-              "icon": "🏃",
+              "detail": "10 km a 7:00/km en Z2 (115-134 ppm)",
+              "structure": [
+                "10 km continuos a 7:00/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-09-20"
             }
           ]
@@ -506,67 +629,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-21"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-09-22"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~30km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-09-23"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-24"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:40-5:45/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:40-5:45/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-09-25"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "57 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 57,
               "icon": "🚴",
+              "distance_km": 35,
+              "detail": "35 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "35 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-09-26"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "11 km a 7:00/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 11,
               "pace": "7:00",
-              "icon": "🏃",
+              "detail": "11 km a 7:00/km en Z2 (115-134 ppm)",
+              "structure": [
+                "11 km continuos a 7:00/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-09-27"
             }
           ]
@@ -580,67 +759,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-09-28"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-09-29"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~30km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~30km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-09-30"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-01"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:40-5:45/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:40-5:45/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:40-5:45/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-10-02"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "35 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 35,
               "icon": "🚴",
+              "distance_km": 22,
+              "detail": "22 km en Z2 (115-134 ppm) · descarga",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): baja a la costa y Passeig Marítim dir. Castelldefels; vuelta. Llano, ideal Z2.",
+              "structure": [
+                "22 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-10-03"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "8 km a 7:15/km Z2 · descarga",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 8,
               "pace": "7:15",
-              "icon": "🏃",
+              "detail": "8 km a 7:15/km en Z2 (115-134 ppm) · descarga",
+              "structure": [
+                "8 km continuos a 7:15/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-10-04"
             }
           ]
@@ -662,67 +897,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-05"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-10-06"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~40km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-10-07"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-08"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:30-5:40/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:30-5:40/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-10-09"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "60 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 60,
               "icon": "🚴",
+              "distance_km": 40,
+              "detail": "40 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "40 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-10-10"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "11 km a 6:55/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 11,
               "pace": "6:55",
-              "icon": "🏃",
+              "detail": "11 km a 6:55/km en Z2 (115-134 ppm)",
+              "structure": [
+                "11 km continuos a 6:55/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-10-11"
             }
           ]
@@ -736,67 +1027,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-12"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-10-13"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~40km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-10-14"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-15"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:30-5:40/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:30-5:40/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-10-16"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "69 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 69,
               "icon": "🚴",
+              "distance_km": 46,
+              "detail": "46 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "46 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-10-17"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "11 km a 6:55/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 11,
               "pace": "6:55",
-              "icon": "🏃",
+              "detail": "11 km a 6:55/km en Z2 (115-134 ppm)",
+              "structure": [
+                "11 km continuos a 6:55/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-10-18"
             }
           ]
@@ -810,67 +1157,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-19"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-10-20"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~40km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-10-21"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-22"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:30-5:40/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:30-5:40/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-10-23"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "42 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 42,
               "icon": "🚴",
+              "distance_km": 28,
+              "detail": "28 km en Z2 (115-134 ppm) · descarga",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): baja a la costa y Passeig Marítim dir. Castelldefels; vuelta. Llano, ideal Z2.",
+              "structure": [
+                "28 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-10-24"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "9 km a 7:10/km Z2 · descarga",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 9,
               "pace": "7:10",
-              "icon": "🏃",
+              "detail": "9 km a 7:10/km en Z2 (115-134 ppm) · descarga",
+              "structure": [
+                "9 km continuos a 7:10/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-10-25"
             }
           ]
@@ -884,67 +1287,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-26"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-10-27"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~40km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~40km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-10-28"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-10-29"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:30-5:40/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:30-5:40/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:30-5:40/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-10-30"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "69 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 69,
               "icon": "🚴",
+              "distance_km": 52,
+              "detail": "52 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "52 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-10-31"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "12 km a 6:55/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 12,
               "pace": "6:55",
-              "icon": "🏃",
+              "detail": "12 km a 6:55/km en Z2 (115-134 ppm)",
+              "structure": [
+                "12 km continuos a 6:55/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-11-01"
             }
           ]
@@ -966,67 +1425,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-02"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-11-03"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~46km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-11-04"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-05"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:25-5:30/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:25-5:30/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-11-06"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "70 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 70,
               "icon": "🚴",
+              "distance_km": 55,
+              "detail": "55 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "55 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-11-07"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "12 km a 6:50/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 12,
               "pace": "6:50",
-              "icon": "🏃",
+              "detail": "12 km a 6:50/km en Z2 (115-134 ppm)",
+              "structure": [
+                "12 km continuos a 6:50/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-11-08"
             }
           ]
@@ -1040,67 +1555,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-09"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-11-10"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~46km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-11-11"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-12"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:25-5:30/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:25-5:30/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-11-13"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "80 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 80,
               "icon": "🚴",
+              "distance_km": 62,
+              "detail": "62 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "62 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-11-14"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "12 km a 6:50/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 12,
               "pace": "6:50",
-              "icon": "🏃",
+              "detail": "12 km a 6:50/km en Z2 (115-134 ppm)",
+              "structure": [
+                "12 km continuos a 6:50/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-11-15"
             }
           ]
@@ -1114,67 +1685,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-16"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-11-17"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~46km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-11-18"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-19"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:25-5:30/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:25-5:30/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-11-20"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "49 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 49,
               "icon": "🚴",
+              "distance_km": 38,
+              "detail": "38 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "38 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-11-21"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "10 km a 7:00/km Z2 · descarga",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 10,
               "pace": "7:00",
-              "icon": "🏃",
+              "detail": "10 km a 7:00/km en Z2 (115-134 ppm) · descarga",
+              "structure": [
+                "10 km continuos a 7:00/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-11-22"
             }
           ]
@@ -1188,67 +1815,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-23"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-11-24"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~46km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~46km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-11-25"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-11-26"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:25-5:30/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:25-5:30/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:25-5:30/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-11-27"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "80 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 80,
               "icon": "🚴",
+              "distance_km": 68,
+              "detail": "68 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "68 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-11-28"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "13 km a 6:50/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 13,
               "pace": "6:50",
-              "icon": "🏃",
+              "detail": "13 km a 6:50/km en Z2 (115-134 ppm)",
+              "structure": [
+                "13 km continuos a 6:50/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-11-29"
             }
           ]
@@ -1270,67 +1953,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-07"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-12-08"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~50km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-12-09"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-10"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:15-5:20/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:15-5:20/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-12-11"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "80 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 80,
               "icon": "🚴",
+              "distance_km": 70,
+              "detail": "70 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "70 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-12-12"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "13 km a 6:45/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 13,
               "pace": "6:45",
-              "icon": "🏃",
+              "detail": "13 km a 6:45/km en Z2 (115-134 ppm)",
+              "structure": [
+                "13 km continuos a 6:45/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-12-13"
             }
           ]
@@ -1344,67 +2083,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-14"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-12-15"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~50km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-12-16"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-17"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:15-5:20/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:15-5:20/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-12-18"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "80 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 80,
               "icon": "🚴",
+              "distance_km": 76,
+              "detail": "76 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "76 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-12-19"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "13 km a 6:45/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 13,
               "pace": "6:45",
-              "icon": "🏃",
+              "detail": "13 km a 6:45/km en Z2 (115-134 ppm)",
+              "structure": [
+                "13 km continuos a 6:45/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-12-20"
             }
           ]
@@ -1418,67 +2213,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-21"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-12-22"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~50km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-12-23"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-24"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:15-5:20/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:15-5:20/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2026-12-25"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "92 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 92,
               "icon": "🚴",
+              "distance_km": 84,
+              "detail": "84 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "84 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2026-12-26"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "14 km a 6:45/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 14,
               "pace": "6:45",
-              "icon": "🏃",
+              "detail": "14 km a 6:45/km en Z2 (115-134 ppm)",
+              "structure": [
+                "14 km continuos a 6:45/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2026-12-27"
             }
           ]
@@ -1492,67 +2343,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-28"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2026-12-29"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · 4x5' Z4 · ~50km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · 4x5' Z4 · ~50km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2026-12-30"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2026-12-31"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "6x800m a 5:15-5:20/km (90s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "6x800m a 5:15-5:20/km (90s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "6x800m a 5:15-5:20/km (90s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-01-01"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "56 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 56,
               "icon": "🚴",
+              "distance_km": 50,
+              "detail": "50 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "50 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-01-02"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "10 km a 7:00/km Z2 · descarga",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 10,
               "pace": "7:00",
-              "icon": "🏃",
+              "detail": "10 km a 7:00/km en Z2 (115-134 ppm) · descarga",
+              "structure": [
+                "10 km continuos a 7:00/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2027-01-03"
             }
           ]
@@ -1574,67 +2481,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-04"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-01-05"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~55km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~55km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-01-06"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-07"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:25-5:30/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-01-08"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "90 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 90,
               "icon": "🚴",
+              "distance_km": 85,
+              "detail": "85 km en Z2 (115-134 ppm)",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "85 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-01-09"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "14 km a 6:40/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 14,
               "pace": "6:40",
-              "icon": "🏃",
+              "detail": "14 km a 6:40/km en Z2 (115-134 ppm)",
+              "structure": [
+                "14 km continuos a 6:40/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2027-01-10"
             }
           ]
@@ -1648,67 +2611,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-11"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-01-12"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~55km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~55km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-01-13"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-14"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:25-5:30/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-01-15"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "103 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 103,
               "icon": "🚴",
+              "distance_km": 95,
+              "detail": "95 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "95 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-01-16"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "14 km a 6:40/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 14,
               "pace": "6:40",
-              "icon": "🏃",
+              "detail": "14 km a 6:40/km en Z2 (115-134 ppm)",
+              "structure": [
+                "14 km continuos a 6:40/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2027-01-17"
             }
           ]
@@ -1722,67 +2741,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-18"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-01-19"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~55km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~55km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-01-20"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-21"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:25-5:30/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-01-22"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "63 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 63,
               "icon": "🚴",
+              "distance_km": 58,
+              "detail": "58 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "58 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-01-23"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "11 km a 6:45/km Z2 · descarga",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 11,
               "pace": "6:45",
-              "icon": "🏃",
+              "detail": "11 km a 6:45/km en Z2 (115-134 ppm) · descarga",
+              "structure": [
+                "11 km continuos a 6:45/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2027-01-24"
             }
           ]
@@ -1796,67 +2871,123 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-25"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-01-26"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~55km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~55km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-01-27"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-01-28"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:25-5:30/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:25-5:30/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-01-29"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "103 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 103,
               "icon": "🚴",
+              "distance_km": 100,
+              "detail": "100 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "100 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-01-30"
             },
             {
               "day": "DOM",
               "sport": "run",
               "title": "Run largo Z2",
-              "detail": "16 km a 6:35/km Z2",
               "zone": "Z2",
+              "icon": "🏃",
               "distance_km": 16,
               "pace": "6:35",
-              "icon": "🏃",
+              "detail": "16 km a 6:35/km en Z2 (115-134 ppm)",
+              "structure": [
+                "16 km continuos a 6:35/km"
+              ],
+              "cues": [
+                "FC en Z2 (115-134 ppm)",
+                "Ritmo conversacional",
+                "Si la FC sube, afloja aunque el ritmo baje"
+              ],
               "date": "2027-01-31"
             }
           ]
@@ -1878,56 +3009,104 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-01"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-02-02"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~60km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~60km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-02-03"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-04"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:15-5:20/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-02-05"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "100 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 100,
               "icon": "🚴",
+              "distance_km": 100,
+              "detail": "100 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "100 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-02-06"
             },
             {
@@ -1935,11 +3114,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "75 km bici Z2 + 12 km run a 6:20/km",
-              "bike_km": 75,
+              "icon": "🧱",
+              "bike_km": 70,
               "run_km": 12,
               "run_pace": "6:20",
-              "icon": "🧱",
+              "detail": "70 km bici Z2 + 12 km run a 6:20/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "70 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:20/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-02-07"
             }
           ]
@@ -1953,56 +3143,104 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-08"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-02-09"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~60km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~60km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-02-10"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-11"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:15-5:20/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-02-12"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "100 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 100,
               "icon": "🚴",
+              "distance_km": 100,
+              "detail": "100 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "100 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-02-13"
             },
             {
@@ -2010,11 +3248,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "75 km bici Z2 + 12 km run a 6:15/km",
+              "icon": "🧱",
               "bike_km": 75,
               "run_km": 12,
               "run_pace": "6:15",
-              "icon": "🧱",
+              "detail": "75 km bici Z2 + 12 km run a 6:15/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "75 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:15/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-02-14"
             }
           ]
@@ -2028,56 +3277,104 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-15"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-02-16"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~60km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~60km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-02-17"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-18"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:15-5:20/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-02-19"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "115 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 115,
               "icon": "🚴",
+              "distance_km": 115,
+              "detail": "115 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "115 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-02-20"
             },
             {
@@ -2085,11 +3382,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "90 km bici Z2 + 12 km run a 6:10/km",
-              "bike_km": 90,
+              "icon": "🧱",
+              "bike_km": 85,
               "run_km": 12,
               "run_pace": "6:10",
-              "icon": "🧱",
+              "detail": "85 km bici Z2 + 12 km run a 6:10/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "85 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:10/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-02-21"
             }
           ]
@@ -2103,56 +3411,104 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-22"
             },
             {
               "day": "MAR",
               "sport": "gym",
               "title": "Gym — Fuerza funcional",
-              "detail": "Sentadilla/remo 4x10 + core 20-30'",
               "zone": "—",
               "icon": "🏋️",
+              "detail": "Fuerza de base + core (técnica > carga)",
+              "structure": [
+                "Sentadilla 4x8",
+                "Peso muerto rumano 3x10",
+                "Zancadas 3x12/pierna",
+                "Puente de glúteo 3x15",
+                "Plancha 3x45\" + plancha lateral 3x30\"/lado"
+              ],
+              "cues": [
+                "Prioriza técnica y rango",
+                "Core al final",
+                "Nada al fallo: esto complementa, no fatiga"
+              ],
               "date": "2027-02-23"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~60km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~60km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-02-24"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-02-25"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "5x1000m a 5:15-5:20/km (75s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "5x1000m a 5:15-5:20/km (75s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-02-26"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "70 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 70,
               "icon": "🚴",
+              "distance_km": 70,
+              "detail": "70 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "70 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-02-27"
             },
             {
@@ -2160,12 +3516,24 @@
               "sport": "triathlon",
               "title": "🏁 SIMULACRO OLÍMPICO",
               "zone": "RACE-sim",
-              "detail": "1500m nado + 40km bici + 10km run · con transiciones (T1/T2) · nado en aguas abiertas si es posible",
+              "icon": "🏁",
+              "detail": "1500m nado + 40km bici + 10km run · con transiciones (T1/T2)",
+              "simulation": true,
               "swim_m": 1500,
               "bike_km": 40,
               "run_km": 10,
-              "simulation": true,
-              "icon": "🏁",
+              "structure": [
+                "1500m nado (aguas abiertas si es posible)",
+                "T1: cambio a bici",
+                "40 km bici a ritmo objetivo",
+                "T2: cambio a run",
+                "10 km run a ritmo objetivo"
+              ],
+              "cues": [
+                "Cronometra los 3 segmentos y las transiciones por separado",
+                "Prueba avituallamiento de carrera",
+                "Objetivo: sacar foto realista antes de Deltebre (abril)"
+              ],
               "date": "2027-02-28"
             }
           ]
@@ -2187,56 +3555,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-01"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-02"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~65km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~65km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-03-03"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-04"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-03-05"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "110 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 110,
               "icon": "🚴",
+              "distance_km": 100,
+              "detail": "100 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "100 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-03-06"
             },
             {
@@ -2244,11 +3650,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "85 km bici Z2 + 12 km run a 6:10/km",
-              "bike_km": 85,
+              "icon": "🧱",
+              "bike_km": 80,
               "run_km": 12,
               "run_pace": "6:10",
-              "icon": "🧱",
+              "detail": "80 km bici Z2 + 12 km run a 6:10/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "80 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:10/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-03-07"
             }
           ]
@@ -2262,56 +3679,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-08"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-09"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~65km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~65km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-03-10"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-11"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-03-12"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "110 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 110,
               "icon": "🚴",
+              "distance_km": 105,
+              "detail": "105 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "105 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-03-13"
             },
             {
@@ -2319,11 +3774,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "85 km bici Z2 + 12 km run a 6:05/km",
+              "icon": "🧱",
               "bike_km": 85,
               "run_km": 12,
               "run_pace": "6:05",
-              "icon": "🧱",
+              "detail": "85 km bici Z2 + 12 km run a 6:05/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "85 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:05/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-03-14"
             }
           ]
@@ -2337,56 +3803,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-15"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-16"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~65km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~65km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-03-17"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-18"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-03-19"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "126 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 126,
               "icon": "🚴",
+              "distance_km": 115,
+              "detail": "115 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "115 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-03-20"
             },
             {
@@ -2394,11 +3898,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "101 km bici Z2 + 12 km run a 6:00/km",
-              "bike_km": 101,
+              "icon": "🧱",
+              "bike_km": 95,
               "run_km": 12,
               "run_pace": "6:00",
-              "icon": "🧱",
+              "detail": "95 km bici Z2 + 12 km run a 6:00/km",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "95 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:00/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-03-21"
             }
           ]
@@ -2412,56 +3927,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-22"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-23"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~65km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~65km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-03-24"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-03-25"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:30-5:40/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-03-26"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "77 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 77,
               "icon": "🚴",
+              "distance_km": 70,
+              "detail": "70 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "70 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-03-27"
             },
             {
@@ -2469,11 +4022,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "52 km bici Z2 + 10 km run a 6:10/km · descarga",
-              "bike_km": 52,
+              "icon": "🧱",
+              "bike_km": 45,
               "run_km": 10,
               "run_pace": "6:10",
-              "icon": "🧱",
+              "detail": "45 km bici Z2 + 10 km run a 6:10/km · descarga",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "45 km bici en Z2",
+                "Transición rápida (<5')",
+                "10 km run a 6:10/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-03-28"
             }
           ]
@@ -2495,56 +4059,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-05"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-06"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~70km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~70km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-04-07"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-08"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-04-09"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "90 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 90,
               "icon": "🚴",
+              "distance_km": 90,
+              "detail": "90 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "90 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-04-10"
             },
             {
@@ -2552,11 +4154,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "65 km bici Z2 + 12 km run a 6:05/km",
-              "bike_km": 65,
+              "icon": "🧱",
+              "bike_km": 70,
               "run_km": 12,
               "run_pace": "6:05",
-              "icon": "🧱",
+              "detail": "70 km bici Z2 + 12 km run a 6:05/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "70 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:05/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-04-11"
             }
           ]
@@ -2570,56 +4183,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-12"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-13"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~70km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~70km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-04-14"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-15"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-04-16"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "90 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 90,
               "icon": "🚴",
+              "distance_km": 95,
+              "detail": "95 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "95 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-04-17"
             },
             {
@@ -2627,11 +4278,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "65 km bici Z2 + 12 km run a 6:00/km",
-              "bike_km": 65,
+              "icon": "🧱",
+              "bike_km": 72,
               "run_km": 12,
               "run_pace": "6:00",
-              "icon": "🧱",
+              "detail": "72 km bici Z2 + 12 km run a 6:00/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "72 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 6:00/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-04-18"
             }
           ]
@@ -2645,56 +4307,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-19"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-20"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~70km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~70km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-04-21"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-22"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-04-23"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "103 km Z2 · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 103,
               "icon": "🚴",
+              "distance_km": 105,
+              "detail": "105 km en Z2 (115-134 ppm)",
+              "route": "Costa → Sitges por el Garraf → extensión a Vilanova y vuelta. Salida larga: lleva avituallamiento y bidones.",
+              "structure": [
+                "105 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-04-24"
             },
             {
@@ -2702,11 +4402,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "78 km bici Z2 + 12 km run a 5:55/km",
-              "bike_km": 78,
+              "icon": "🧱",
+              "bike_km": 82,
               "run_km": 12,
               "run_pace": "5:55",
-              "icon": "🧱",
+              "detail": "82 km bici Z2 + 12 km run a 5:55/km",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "82 km bici en Z2",
+                "Transición rápida (<5')",
+                "12 km run a 5:55/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-04-25"
             }
           ]
@@ -2720,56 +4431,94 @@
             {
               "day": "LUN",
               "sport": "swim",
-              "title": "Natación",
-              "detail": "1.500m · 400m cal + series Z2 + enf. · técnica",
+              "title": "Natación (con entrenador)",
               "zone": "Z2-Z3",
               "icon": "🌊",
+              "detail": "~1.500m · sesión guiada por tu entrenador",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-26"
             },
             {
               "day": "MAR",
               "sport": "mobility",
               "title": "Movilidad",
-              "detail": "20' foam roller + movilidad",
               "zone": "Z1",
               "icon": "🧘",
+              "detail": "20' foam roller + movilidad de cadera/tobillo",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-27"
             },
             {
               "day": "MIÉ",
               "sport": "bike",
-              "title": "Bici calidad (indoor)",
-              "detail": "Indoor Z4 · ~70km",
+              "title": "Bici calidad",
               "zone": "Z4",
               "icon": "🚴",
+              "detail": "Intervalos en Z4 (154-173 ppm) · subida Vallvidrera/Collserola o turbo indoor",
+              "route": "Desde Carrer de l'Avet 13b, Barcelona (Sarrià-Sant Gervasi): sube por Vallvidrera y enlaza Collserola por carretera (Tibidabo / hacia Sant Cugat). Desnivel para trabajo de fuerza y Z4.",
+              "structure": [
+                "15' calentamiento progresivo hasta Z3",
+                "Indoor Z4 · ~70km",
+                "10' enfriamiento suave Z1-Z2"
+              ],
+              "cues": [
+                "Series en Z4, recuperaciones muy suaves",
+                "En subida el desnivel te sube la FC: aprovéchalo para la fuerza",
+                "Cadencia alta en llano (90-100 rpm), más baja y potente en rampa"
+              ],
               "date": "2027-04-28"
             },
             {
               "day": "JUE",
               "sport": "rest",
               "title": "Descanso",
-              "detail": "Descanso completo / caminata suave",
               "zone": "—",
               "icon": "💤",
+              "detail": "Descanso completo o caminata suave 20-30'",
+              "structure": [],
+              "cues": [],
               "date": "2027-04-29"
             },
             {
               "day": "VIE",
               "sport": "run",
               "title": "Run calidad",
-              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
               "zone": "Z4",
               "icon": "🏃",
+              "detail": "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+              "structure": [
+                "10-12' calentamiento a ~6:30/km",
+                "4x1500m / 3x2000m a 5:20-5:35/km (60s desc)",
+                "10' enfriamiento suave"
+              ],
+              "cues": [
+                "Series en Z4 (154-173 ppm)",
+                "Recupera caminando o trote muy suave",
+                "Técnica: cadencia ~170-175 ppm"
+              ],
               "date": "2027-04-30"
             },
             {
               "day": "SÁB",
               "sport": "bike",
               "title": "Bici larga Z2",
-              "detail": "63 km Z2 · descarga · 22-26 km/h",
               "zone": "Z2",
-              "distance_km": 63,
               "icon": "🚴",
+              "distance_km": 65,
+              "detail": "65 km en Z2 (115-134 ppm) · descarga",
+              "route": "Costa → Castelldefels → primeros repechos del Garraf hacia Sitges y vuelta. O variante Vallvidrera-Sant Cugat para meter desnivel.",
+              "structure": [
+                "65 km continuos a FC de Z2",
+                "Terreno llano de costa"
+              ],
+              "cues": [
+                "Manda la FC: 115-134 ppm aunque el ritmo sea bajo",
+                "Cadencia 85-90 rpm",
+                "Come/bebe cada 30-40' en salidas >90'",
+                "Es tu deporte a mejorar: constancia > intensidad"
+              ],
               "date": "2027-05-01"
             },
             {
@@ -2777,11 +4526,22 @@
               "sport": "brick",
               "title": "Brick (bici + run)",
               "zone": "Z2",
-              "detail": "50 km bici Z2 + 10 km run a 6:05/km · descarga",
-              "bike_km": 50,
+              "icon": "🧱",
+              "bike_km": 45,
               "run_km": 10,
               "run_pace": "6:05",
-              "icon": "🧱",
+              "detail": "45 km bici Z2 + 10 km run a 6:05/km · descarga",
+              "route": "Costa → Castelldefels ida y vuelta por paseo/carril llano. Z2 sostenido, sin repechos.",
+              "structure": [
+                "45 km bici en Z2",
+                "Transición rápida (<5')",
+                "10 km run a 6:05/km"
+              ],
+              "cues": [
+                "Los primeros 1-2 km del run las piernas van 'de bici' — normal, no te asustes",
+                "Practica la transición como el día de carrera",
+                "Run a ritmo objetivo, no más rápido"
+              ],
               "date": "2027-05-02"
             }
           ]

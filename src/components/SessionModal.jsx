@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { formatLong } from '../lib/format'
-import ZoneBadge from './ZoneBadge'
+import SessionInfo from './SessionInfo'
 
 function Field({ label, children }) {
   return (
@@ -149,11 +149,9 @@ export default function SessionModal({ day, hrZones, record, onClose, onSave, on
           </button>
         </div>
 
-        {day.detail && <p className="mb-3 text-sm text-slate-300">{day.detail}</p>}
         <div className="mb-4">
-          <ZoneBadge zone={day.zone} hrZones={hrZones} pace={day.pace} />
+          <SessionInfo day={day} hrZones={hrZones} />
         </div>
-        {day.note && <p className="mb-4 rounded-lg bg-white/5 p-2 text-xs text-slate-400">{day.note}</p>}
 
         <div className="mb-4 flex gap-2">
           {[
