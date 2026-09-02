@@ -12,6 +12,17 @@ sesión en `localStorage` del navegador — sin backend, pensada para un único 
 - **Progreso** — FC media por sesión en el tiempo, km acumulados por deporte, adherencia semanal.
 - **Peso** — registro de peso con línea objetivo hacia la fecha de carrera.
 
+## Instalarla en el móvil (PWA)
+
+La app es una PWA instalable, desplegada en GitHub Pages en cuanto se activa
+(ver más abajo): **https://ldteson.github.io/App-creation/**
+
+- **Android / Chrome:** abre el enlace → menú ⋮ → "Añadir a pantalla de inicio".
+- **iPhone / Safari:** abre el enlace → botón compartir 􀈂 → "Añadir a pantalla de inicio".
+
+Queda como un icono más, abre a pantalla completa sin barra de navegador, y funciona sin conexión
+una vez cargada (el registro sigue viviendo en `localStorage`, por dispositivo).
+
 ## Desarrollo
 
 ```bash
@@ -43,3 +54,13 @@ python3 generate.py
   "mallorca703_weight_v1": [{ "date": "2026-09-12", "weight_kg": 71.5 }]
 }
 ```
+
+## Despliegue (GitHub Pages)
+
+`.github/workflows/deploy.yml` construye y publica `dist/` en GitHub Pages en cada push a `main`
+o a esta rama. La primera vez hay que activarlo una vez en el repo: **Settings → Pages → Build and
+deployment → Source: "GitHub Actions"**. A partir de ahí cada push despliega solo.
+
+El build de producción usa `base: '/App-creation/'` (variable `GITHUB_PAGES=true`, la pone el
+workflow) y el router usa hash (`/#/semana`) para que las rutas funcionen en un hosting estático
+sin servidor.
